@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        @Html.ActionLink("Sync", "Index", new { controller = "SyncStream" })
+    </div>
+    <div class="col-md-6">
+        @Html.ActionLink("Async", "Index", new { controller = "AsyncStream" })
+    </div>
+</div>
